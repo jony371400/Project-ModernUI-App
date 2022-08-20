@@ -21,7 +21,7 @@
         </Grid.ColumnDefinitions>
 
         <!--Left Menu-->
-        <Border CornerRadius="20 0 0 20" Grid.Column="0">
+        <Border CornerRadius="20 0 0 20" Grid.Column="0" MouseDown="Border_MouseDown">
             <Border.Background>
                 <LinearGradientBrush StartPoint="0.5 , 0" EndPoint="0.5 , 1">
                     <GradientStop Color="#223266" Offset="0"></GradientStop>
@@ -53,56 +53,56 @@
                 <Separator Height="0.8" Margin="20 30" Background="#46558a"></Separator>
 
                 <!--Menu BTN-->
-                <Button Style="{StaticResource menuButtonActive}">
+                <Button Style="{StaticResource menuButtonActive}" Click="ControlBtn_Click" Name="BtnDashBoard">
                     <StackPanel Orientation="Horizontal" >
                         <fa:IconImage Icon="Home" Style="{StaticResource menuButtonIcon}"></fa:IconImage>
                         <TextBlock Text="DashBoard" Style="{StaticResource menuButtonText}"></TextBlock>
                     </StackPanel>
                 </Button>
 
-                <Button Style="{StaticResource menuButton}">
+                <Button Style="{StaticResource menuButton}" Click="ControlBtn_Click" Name="BtnListing">
                     <StackPanel Orientation="Horizontal" >
                         <fa:IconImage Icon="FileSignature" Style="{StaticResource menuButtonIcon}"></fa:IconImage>
                         <TextBlock Text="Listing" Style="{StaticResource menuButtonText}"></TextBlock>
                     </StackPanel>
                 </Button>
 
-                <Button Style="{StaticResource menuButton}">
+                <Button Style="{StaticResource menuButton}" Click="ControlBtn_Click" Name="BtnMessage">
                     <StackPanel Orientation="Horizontal" >
                         <fa:IconImage Icon="EnvelopeOpenText" Style="{StaticResource menuButtonIcon}"></fa:IconImage>
                         <TextBlock Text="Messages" Style="{StaticResource menuButtonText}"></TextBlock>
                     </StackPanel>
                 </Button>
 
-                <Button Style="{StaticResource menuButton}">
+                <Button Style="{StaticResource menuButton}" Click="ControlBtn_Click" Name="BtnOrders">
                     <StackPanel Orientation="Horizontal" >
                         <fa:IconImage Icon="ShoppingCart" Style="{StaticResource menuButtonIcon}"></fa:IconImage>
                         <TextBlock Text="Orders" Style="{StaticResource menuButtonText}"></TextBlock>
                     </StackPanel>
                 </Button>
 
-                <Button Style="{StaticResource menuButton}">
+                <Button Style="{StaticResource menuButton}" Click="ControlBtn_Click" Name="BtnStatistics">
                     <StackPanel Orientation="Horizontal" >
                         <fa:IconImage Icon="ChartArea" Style="{StaticResource menuButtonIcon}"></fa:IconImage>
-                        <TextBlock Text="statistics" Style="{StaticResource menuButtonText}"></TextBlock>
+                        <TextBlock Text="Statistics" Style="{StaticResource menuButtonText}"></TextBlock>
                     </StackPanel>
                 </Button>
 
-                <Button Style="{StaticResource menuButton}">
+                <Button Style="{StaticResource menuButton}" Click="ControlBtn_Click" Name="BtnRevenue">
                     <StackPanel Orientation="Horizontal" >
                         <fa:IconImage Icon="Coins" Style="{StaticResource menuButtonIcon}"></fa:IconImage>
                         <TextBlock Text="Revenue" Style="{StaticResource menuButtonText}"></TextBlock>
                     </StackPanel>
                 </Button>
 
-                <Button Style="{StaticResource menuButton}">
+                <Button Style="{StaticResource menuButton}" Click="ControlBtn_Click" Name="BtnPromote">
                     <StackPanel Orientation="Horizontal" >
                         <fa:IconImage Icon="FlagCheckered" Style="{StaticResource menuButtonIcon}"></fa:IconImage>
                         <TextBlock Text="Promote" Style="{StaticResource menuButtonText}"></TextBlock>
                     </StackPanel>
                 </Button>
 
-                <Button Style="{StaticResource menuButton}">
+                <Button Style="{StaticResource menuButton}" Click="ControlBtn_Click" Name="BtnSetting">
                     <StackPanel Orientation="Horizontal" >
                         <fa:IconImage Icon="Cog" Style="{StaticResource menuButtonIcon}"></fa:IconImage>
                         <TextBlock Text="Setting" Style="{StaticResource menuButtonText}"></TextBlock>
@@ -119,7 +119,7 @@
         </Border>
 
         <!--Right Menu-->
-        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" >
+        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Visible" Name="PageDashBoard">
             <Border.Background>
                 <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">
                     <GradientStop Color="#41518f" Offset="0"></GradientStop>
@@ -275,6 +275,84 @@
                     </Border>
                 </Grid>
             </Grid>
+        </Border>
+
+        <!--Right Menu-->
+        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageListing">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">
+                    <GradientStop Color="#41518f" Offset="0"></GradientStop>
+                    <GradientStop Color="#2c386c" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <TextBlock>Listing</TextBlock>
+        </Border>
+
+        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageMessage">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">
+                    <GradientStop Color="#41518f" Offset="0"></GradientStop>
+                    <GradientStop Color="#2c386c" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <TextBlock>Message</TextBlock>
+        </Border>
+
+        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageOrders">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">
+                    <GradientStop Color="#41518f" Offset="0"></GradientStop>
+                    <GradientStop Color="#2c386c" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <TextBlock>Orders</TextBlock>
+        </Border>
+
+        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageStatistics">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">
+                    <GradientStop Color="#41518f" Offset="0"></GradientStop>
+                    <GradientStop Color="#2c386c" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <TextBlock>Statistics</TextBlock>
+        </Border>
+
+        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageRevenue">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">
+                    <GradientStop Color="#41518f" Offset="0"></GradientStop>
+                    <GradientStop Color="#2c386c" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <TextBlock>Revenue</TextBlock>
+        </Border>
+
+        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PagePromete">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">
+                    <GradientStop Color="#41518f" Offset="0"></GradientStop>
+                    <GradientStop Color="#2c386c" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <TextBlock>Promote</TextBlock>
+        </Border>
+
+        <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageSetting">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">
+                    <GradientStop Color="#41518f" Offset="0"></GradientStop>
+                    <GradientStop Color="#2c386c" Offset="1"></GradientStop>
+                </LinearGradientBrush>
+            </Border.Background>
+            
+            <TextBlock>Setting</TextBlock>
         </Border>
     </Grid>
 </Window>

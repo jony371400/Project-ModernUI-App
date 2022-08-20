@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "c1LDoStAHUnANgTaRE5AOvtKt35xJmVs2DtQy4Up3MUoX0q45yn+Gl7Im3ogBZB5Jag8pSkzLDMIAzRGMoeFYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\11107647\\Desktop\\Code\\Project-ModernUI-App\\Dashboard-App\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\11107647\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512",
+    "C:\\Users\\11107647\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\11107647\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'LiveCharts 0.9.7'。此套件與您的專案並非完全相容。",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'LiveCharts.Wpf 0.9.7'。此套件與您的專案並非完全相容。",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

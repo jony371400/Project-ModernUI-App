@@ -4,6 +4,4 @@ Have Fun ~~~
 ```
 
 > Project : Dashboard-App
-```
-![Image text](https://github.com/jony371400/Project-ModernUI-App/blob/main/Dashboard-App/UI.png)
-```
+![Image](https://github.com/jony371400/Project-ModernUI-App/blob/main/Dashboard-App/UI.png)

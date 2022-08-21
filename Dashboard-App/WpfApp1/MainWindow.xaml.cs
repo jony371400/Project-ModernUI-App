@@ -44,39 +44,54 @@ namespace WpfApp1
             PagePromete.Visibility = Visibility.Hidden;
             PageSetting.Visibility = Visibility.Hidden;
 
+            BtnDashBoard.Style = (Style)Application.Current.Resources["menuButton"];
+            BtnListing.Style = (Style)Application.Current.Resources["menuButton"];
+            BtnMessage.Style = (Style)Application.Current.Resources["menuButton"];
+            BtnOrders.Style = (Style)Application.Current.Resources["menuButton"];
+            BtnStatistics.Style = (Style)Application.Current.Resources["menuButton"];
+            BtnRevenue.Style = (Style)Application.Current.Resources["menuButton"];
+            BtnPromote.Style = (Style)Application.Current.Resources["menuButton"];
+            BtnSetting.Style = (Style)Application.Current.Resources["menuButton"];
+
             if (sender == BtnDashBoard)
             {
                 PageDashBoard.Visibility = Visibility.Visible;
-                BtnDashBoard.Style = (Style)Resources["menuButtonActive"];
-                    }
+                BtnDashBoard.Style = (Style)Application.Current.Resources["menuButtonActive"];
+            }
             else if (sender == BtnListing)
             {
                 PageListing.Visibility = Visibility.Visible;
-                BtnListing.Style = (Style)Resources["menuButtonActive"];
+                BtnListing.Style = (Style)Application.Current.Resources["menuButtonActive"];
             }
             else if (sender == BtnMessage)
             {
                 PageMessage.Visibility = Visibility.Visible;
+                BtnMessage.Style = (Style)Application.Current.Resources["menuButtonActive"];
             }
             else if (sender == BtnOrders)
             {
                 PageOrders.Visibility = Visibility.Visible;
+                BtnOrders.Style = (Style)Application.Current.Resources["menuButtonActive"];
             }
             else if (sender == BtnStatistics)
             {
                 PageStatistics.Visibility = Visibility.Visible;
+                BtnStatistics.Style = (Style)Application.Current.Resources["menuButtonActive"];
             }
             else if (sender == BtnRevenue)
             {
                 PageRevenue.Visibility = Visibility.Visible;
+                BtnRevenue.Style = (Style)Application.Current.Resources["menuButtonActive"];
             }
             else if (sender == BtnPromote)
             {
                 PagePromete.Visibility = Visibility.Visible;
+                BtnPromote.Style = (Style)Application.Current.Resources["menuButtonActive"];
             }
             else if (sender == BtnSetting)
             {
                 PageSetting.Visibility = Visibility.Visible;
+                BtnSetting.Style = (Style)Application.Current.Resources["menuButtonActive"];
             }
             else if (sender == BtnPower)
             {

@@ -13,8 +13,7 @@
         AllowsTransparency="True"
         Background="Transparent">
     
-    <Grid>
-        
+    <Grid>        
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="250"></ColumnDefinition>
             <ColumnDefinition Width="*"></ColumnDefinition>
@@ -277,7 +276,6 @@
             </Grid>
         </Border>
 
-        <!--Right Menu-->
         <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageListing">
             <Border.Background>
                 <LinearGradientBrush StartPoint="1 , 0" EndPoint="0 , 1">

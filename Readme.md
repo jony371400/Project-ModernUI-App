@@ -3,12 +3,12 @@
 Have Fun ~~~
 ```
 
-> Project : Dashboard-App
+```
+Project : Dashboard-App
 ```
 ![Image](https://github.com/jony371400/Project-ModernUI-App/blob/main/Dashboard-App/UI.png)
-```
 
-> Project : Responsive-App
+```
+Project : Responsive-App
 ```
 ![Image](https://github.com/jony371400/Project-ModernUI-App/blob/main/Responsive-App/UI.png)
-```

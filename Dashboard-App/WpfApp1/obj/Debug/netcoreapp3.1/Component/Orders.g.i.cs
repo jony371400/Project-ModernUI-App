@@ -62,7 +62,7 @@ namespace WpfApp1 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WpfApp1;V1.0.0.0;component/component/orders.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WpfApp1;component/component/orders.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Component\Orders.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

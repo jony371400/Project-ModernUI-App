@@ -25,6 +25,7 @@ namespace WpfApp1
             InitializeComponent();
         }
 
+        #region Event 
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
@@ -98,5 +99,6 @@ namespace WpfApp1
                 Application.Current.Shutdown();
             }
         }
+        #endregion
     }
 }

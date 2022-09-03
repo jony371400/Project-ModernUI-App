@@ -37,7 +37,6 @@ C:\Users\11107647\Desktop\Code\Project-ModernUI-App\Dashboard-App\WpfApp1\bin\De
 C:\Users\11107647\Desktop\Code\Project-ModernUI-App\Dashboard-App\WpfApp1\bin\Debug\netcoreapp3.1\FontAwesome.Sharp.dll
 C:\Users\11107647\Desktop\Code\Project-ModernUI-App\Dashboard-App\WpfApp1\bin\Debug\netcoreapp3.1\LiveCharts.dll
 C:\Users\11107647\Desktop\Code\Project-ModernUI-App\Dashboard-App\WpfApp1\bin\Debug\netcoreapp3.1\LiveCharts.Wpf.dll
-C:\Users\11107647\Desktop\Code\Project-ModernUI-App\Dashboard-App\WpfApp1\obj\Debug\netcoreapp3.1\WpfApp1.csproj.AssemblyReference.cache
 C:\Users\11107647\Desktop\Code\Project-ModernUI-App\Dashboard-App\WpfApp1\obj\Debug\netcoreapp3.1\Component\InfoCard.baml
 C:\Users\11107647\Desktop\Code\Project-ModernUI-App\Dashboard-App\WpfApp1\obj\Debug\netcoreapp3.1\Component\Orders.baml
 C:\Users\11107647\Desktop\Code\Project-ModernUI-App\Dashboard-App\WpfApp1\obj\Debug\netcoreapp3.1\Component\InfoCard.g.cs

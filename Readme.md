@@ -1,4 +1,4 @@
-# This Project is about howto design a Modern UI with WPF
+# This Project is about how to design a Modern UI with WPF
 ```
 Have Fun ~~~
 ```

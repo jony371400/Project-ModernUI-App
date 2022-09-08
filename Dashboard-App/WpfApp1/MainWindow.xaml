@@ -287,7 +287,7 @@
 
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
                        FontSize="100" FontWeight="Bold" 
-                       Foreground="White" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
+                       Foreground="#FFE87979" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
         </Border>
 
         <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageMessage">
@@ -300,7 +300,7 @@
 
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
                        FontSize="100" FontWeight="Bold" 
-                       Foreground="White" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
+                       Foreground="#FF5BC719" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
         </Border>
 
         <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageOrders">
@@ -313,7 +313,7 @@
 
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
                        FontSize="100" FontWeight="Bold" 
-                       Foreground="White" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
+                       Foreground="#FF19AE60" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
         </Border>
 
         <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageStatistics">
@@ -326,7 +326,7 @@
 
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
                        FontSize="100" FontWeight="Bold" 
-                       Foreground="White" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
+                       Foreground="#FF24BDB0" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
         </Border>
 
         <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageRevenue">
@@ -339,7 +339,7 @@
 
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
                        FontSize="100" FontWeight="Bold" 
-                       Foreground="White" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
+                       Foreground="#FF1379AE" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
         </Border>
 
         <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PagePromete">
@@ -352,7 +352,7 @@
 
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
                        FontSize="100" FontWeight="Bold" 
-                       Foreground="White" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
+                       Foreground="#FF251CB7" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
         </Border>
 
         <Border CornerRadius="0 20 20 0" Grid.Column="1" MouseDown="Border_MouseDown" Visibility="Hidden"  Name="PageSetting">
@@ -365,7 +365,7 @@
 
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" 
                        FontSize="100" FontWeight="Bold" 
-                       Foreground="White" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
+                       Foreground="#FFB11997" FontFamily="Brush Script MT">Do somethings ~~~</TextBlock>
         </Border>
     
     </Grid>
